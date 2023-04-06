@@ -8,6 +8,7 @@ import CommunityForum from "./pages/CommunityForum";
 import ProgressTracking from "./pages/ProgressTracking";
 import CustomerFeedback from "./pages/CustomerFeedback";
 import InteractiveLessons from "./pages/InteractiveLessons";
+import LanguageSelector from "./pages/LanguageSelector";
 
 function App() {
   const [activeSection, setActiveSection] = useState(null);
@@ -18,6 +19,7 @@ function App() {
 
   return (
     <div className="App">
+      <LanguageSelector />
       <h1>Learn Soft Skills for Drivers</h1>
       <ul>
         <li>
