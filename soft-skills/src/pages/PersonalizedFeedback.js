@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import "../styles/PersonalizedFeedback.css";
 
 function PersonalizedFeedback() {
   const [quizResults, setQuizResults] = useState([]);
@@ -51,7 +52,7 @@ function PersonalizedFeedback() {
   }
 
   return (
-    <div>
+    <div className="feedback-container">
       <h2>Quiz Results</h2>
       <p>Your overall score is {score}%</p>
       <p>{feedbackText}</p>
