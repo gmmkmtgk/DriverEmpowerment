@@ -1,0 +1,38 @@
+.VideosAndAudios {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .Video,
+  .Audio {
+    margin: 2rem 0;
+  }
+  
+  h1,
+  h2 {
+    color: #1f2d3d;
+  }
+  
+  video,
+  audio {
+    display: block;
+    margin: 1rem 0;
+    max-width: 100%;
+  }
+  
+  p {
+    color: #5e6c84;
+    font-size: 1.1rem;
+  }
+  
+  a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: #007aff;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
